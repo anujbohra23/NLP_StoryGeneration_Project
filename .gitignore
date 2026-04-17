@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Large data files
+*.zip
+*.jsonl
+*.csv
+
+# Training artifacts
+optimizer.pt
+*.pt
+
+# Big processed files
+accepted_metadata.csv
+all_processed.jsonl
+processed_children_story_data_v2.zip
+
+# Optional
+__pycache__/
+.ipynb_checkpoints/
