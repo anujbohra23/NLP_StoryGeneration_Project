@@ -1,0 +1,114 @@
+[
+  {
+    "scene_id": 1,
+    "scene_title": "Timmy and Benny's Morning Adventure",
+    "narrative_role": "Opening",
+    "plot_beat": "Introduction to the main characters and setting",
+    "visual_summary": "Timmy and Benny waking up in their cozy little cave, getting ready for their adventure",
+    "characters_present": [
+      "Timmy",
+      "Benny"
+    ],
+    "location": "Bearville Forest",
+    "action": "Timmy and Benny preparing for their hike up Mount Peak",
+    "mood": "Excitement and anticipation",
+    "continuity_notes": [
+      "Establish the friendship between Timmy and Benny",
+      "Show their enthusiasm for the adventure"
+    ]
+  },
+  {
+    "scene_id": 2,
+    "scene_title": "Climbing Mount Peak",
+    "narrative_role": "Journey",
+    "plot_beat": "The friends meet new animals and share treats",
+    "visual_summary": "Timmy and Benny climbing the mountain trail, meeting Tilly the Tortoise and Freddie the Fox",
+    "characters_present": [
+      "Timmy",
+      "Benny",
+      "Tilly",
+      "Freddie"
+    ],
+    "location": "Mount Peak",
+    "action": "Timmy and Benny sharing treats with their new friends",
+    "mood": "Joy and camaraderie",
+    "continuity_notes": [
+      "Introduce the theme of sharing and friendship",
+      "Show the diverse animal friends they meet"
+    ]
+  },
+  {
+    "scene_id": 3,
+    "scene_title": "Reaching the Summit",
+    "narrative_role": "High point",
+    "plot_beat": "The friends reach the top of the mountain and enjoy their picnic",
+    "visual_summary": "Timmy and Benny sitting down to enjoy their picnic at the summit, watching the sunset",
+    "characters_present": [
+      "Timmy",
+      "Benny",
+      "Tilly",
+      "Freddie"
+    ],
+    "location": "Mount Peak",
+    "action": "Timmy and Benny enjoying their picnic with their friends",
+    "mood": "Contentment and gratitude",
+    "continuity_notes": [
+      "Show the beautiful view from the summit",
+      "Emphasize the joy of sharing and friendship"
+    ]
+  },
+  {
+    "scene_id": 4,
+    "scene_title": "Nightfall and Benny's Tummy Rumble",
+    "narrative_role": "Challenge",
+    "plot_beat": "Benny gets tired and hungry, and Timmy shares his food",
+    "visual_summary": "Benny looking tired and hungry, Timmy sharing his sandwiches and treats",
+    "characters_present": [
+      "Timmy",
+      "Benny"
+    ],
+    "location": "Mount Peak",
+    "action": "Timmy sharing his food with Benny",
+    "mood": "Kindness and generosity",
+    "continuity_notes": [
+      "Show Benny's tired and hungry state",
+      "Emphasize Timmy's kind and generous nature"
+    ]
+  },
+  {
+    "scene_id": 5,
+    "scene_title": "The Journey Home",
+    "narrative_role": "Resolution",
+    "plot_beat": "Timmy and Benny continue their journey home, feeling warm and content",
+    "visual_summary": "Timmy and Benny walking down the mountain trail, feeling happy and content",
+    "characters_present": [
+      "Timmy",
+      "Benny"
+    ],
+    "location": "Mount Peak",
+    "action": "Timmy and Benny continuing their journey home",
+    "mood": "Warmth and contentment",
+    "continuity_notes": [
+      "Show the friends continuing their journey home",
+      "Emphasize the importance of kindness and generosity"
+    ]
+  },
+  {
+    "scene_id": 6,
+    "scene_title": "The End of a Beautiful Day",
+    "narrative_role": "Closing",
+    "plot_beat": "The friends return home, tired but happy",
+    "visual_summary": "Timmy and Benny returning to their cozy little cave, tired but happy",
+    "characters_present": [
+      "Timmy",
+      "Benny"
+    ],
+    "location": "Bearville Forest",
+    "action": "Timmy and Benny returning home",
+    "mood": "Contentment and happiness",
+    "continuity_notes": [
+      "Show the friends returning home, tired but happy",
+      "Emphasize the importance of kindness and generosity"
+    ]
+  }
+]

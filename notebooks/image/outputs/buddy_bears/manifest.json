@@ -1,0 +1,22 @@
+{
+  "title": "Buddy Bears",
+  "llm_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "image_model": "black-forest-labs/FLUX.1-schnell",
+  "num_scenes": 6,
+  "art_style": "Whimsical and Colorful",
+  "output_files": {
+    "input": "outputs/buddy_bears/input.json",
+    "story_bible": "outputs/buddy_bears/story_bible.json",
+    "scenes": "outputs/buddy_bears/scenes.json",
+    "character_sheet_prompt": "outputs/buddy_bears/character_sheet_prompt.json",
+    "prompts": "outputs/buddy_bears/prompts.json",
+    "images": [
+      "outputs/buddy_bears/images/scene_01.png",
+      "outputs/buddy_bears/images/scene_02.png",
+      "outputs/buddy_bears/images/scene_03.png",
+      "outputs/buddy_bears/images/scene_04.png",
+      "outputs/buddy_bears/images/scene_05.png",
+      "outputs/buddy_bears/images/scene_06.png"
+    ]
+  }
+}

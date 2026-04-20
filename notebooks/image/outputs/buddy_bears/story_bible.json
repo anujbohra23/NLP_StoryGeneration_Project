@@ -1,0 +1,87 @@
+{
+  "title": "Buddy Bears",
+  "theme": "Friendship and Sharing",
+  "age_group": "4-8 years",
+  "art_direction": {
+    "style": "Whimsical and Colorful",
+    "palette": "Pastel and Earthy Tones",
+    "lighting": "Soft and Warm",
+    "camera_feel": "Playful and Curious",
+    "background_rules": [
+      "Include lush greenery and flowers in the background",
+      "Use a mix of sunny and cloudy skies to represent the changing day"
+    ],
+    "negative_rules": [
+      "Avoid using dark or ominous colors",
+      "Do not depict any characters in distress or conflict"
+    ]
+  },
+  "characters": [
+    {
+      "name": "Timmy",
+      "species": "Brown Bear",
+      "gender_presentation": "Male",
+      "age_group": "6-7 years",
+      "core_personality": [
+        "Kind",
+        "Generous",
+        "Curious",
+        "Friendly"
+      ],
+      "physical_description": {
+        "fur_or_skin": "Brown and fluffy",
+        "hair": "None",
+        "eyes": "Bright and warm brown",
+        "body_size": "Small to medium",
+        "signature_features": [
+          "A small scar above his left eyebrow",
+          "A friendly smile"
+        ]
+      },
+      "default_outfit": "A simple white shirt and blue shorts",
+      "consistency_rules": [
+        "Timmy should always be depicted with a kind expression",
+        "His fur should be depicted as soft and fluffy"
+      ]
+    },
+    {
+      "name": "Benny",
+      "species": "Brown Bear",
+      "gender_presentation": "Male",
+      "age_group": "6-7 years",
+      "core_personality": [
+        "Friendly",
+        "Curious",
+        "Playful",
+        "A bit mischievous"
+      ],
+      "physical_description": {
+        "fur_or_skin": "Brown and fluffy",
+        "hair": "None",
+        "eyes": "Bright and warm brown",
+        "body_size": "Small to medium",
+        "signature_features": [
+          "A small tuft of fur on the top of his head",
+          "A playful grin"
+        ]
+      },
+      "default_outfit": "A simple white shirt and blue shorts",
+      "consistency_rules": [
+        "Benny should always be depicted with a playful expression",
+        "His fur should be depicted as soft and fluffy"
+      ]
+    }
+  ],
+  "world": {
+    "primary_setting": "Bearville Forest",
+    "secondary_settings": [
+      "Mount Peak",
+      "The forest floor"
+    ],
+    "time_progression": "Daytime to sunset",
+    "visual_motifs": [
+      "Flowers and greenery",
+      "Sunshine and clouds"
+    ]
+  }
+}

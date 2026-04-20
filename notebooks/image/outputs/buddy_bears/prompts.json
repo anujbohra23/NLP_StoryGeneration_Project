@@ -1,0 +1,38 @@
+[
+  {
+    "scene_id": 1,
+    "prompt": "Illustrate Timmy, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, and Benny, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, both with kind expressions, standing in front of a cozy little cave in Bearville Forest, with lush greenery and flowers in the background, and a mix of sunny and cloudy skies above. Capture their excitement and anticipation as they prepare for their adventure up Mount Peak. Framed with a medium shot, focusing on the bears' faces and the cave entrance.",
+    "negative_prompt": "No dark or ominous colors, no characters in distress or conflict, no text or watermarks, no inconsistent anatomy, and no photorealism.",
+    "size_hint": "Medium shot, 800x600 pixels"
+  },
+  {
+    "scene_id": 2,
+    "prompt": "Depict Timmy, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, and Benny, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, both with kind expressions, climbing the mountain trail on Mount Peak, surrounded by lush greenery and flowers, with Tilly the Tortoise and Freddie the Fox joining them. Show their joy and camaraderie as they share treats with their new friends. Framed with a wide shot, focusing on the friends' interactions and the mountain scenery.",
+    "negative_prompt": "No dark or ominous colors, no characters in distress or conflict, no text or watermarks, no inconsistent anatomy, and no photorealism.",
+    "size_hint": "Wide shot, 1200x900 pixels"
+  },
+  {
+    "scene_id": 3,
+    "prompt": "Illustrate Timmy, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, and Benny, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, both with kind expressions, sitting down to enjoy their picnic at the summit of Mount Peak, surrounded by lush greenery and flowers, with Tilly the Tortoise and Freddie the Fox joining them. Capture their contentment and gratitude as they watch the sunset. Framed with a close-up shot, focusing on the friends' faces and the picnic spread.",
+    "negative_prompt": "No dark or ominous colors, no characters in distress or conflict, no text or watermarks, no inconsistent anatomy, and no photorealism.",
+    "size_hint": "Close-up shot, 600x800 pixels"
+  },
+  {
+    "scene_id": 4,
+    "prompt": "Depict Benny, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, looking tired and hungry, with Timmy, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, sharing his sandwiches and treats with him. Show Timmy's kindness and generosity as he helps his friend. Framed with a medium shot, focusing on the bears' faces and the food.",
+    "negative_prompt": "No dark or ominous colors, no characters in distress or conflict, no text or watermarks, no inconsistent anatomy, and no photorealism.",
+    "size_hint": "Medium shot, 800x600 pixels"
+  },
+  {
+    "scene_id": 5,
+    "prompt": "Illustrate Timmy, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, and Benny, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, both with kind expressions, walking down the mountain trail on Mount Peak, feeling happy and content. Capture their warmth and contentment as they continue their journey home. Framed with a wide shot, focusing on the friends' interactions and the mountain scenery.",
+    "negative_prompt": "No dark or ominous colors, no characters in distress or conflict, no text or watermarks, no inconsistent anatomy, and no photorealism.",
+    "size_hint": "Wide shot, 1200x900 pixels"
+  },
+  {
+    "scene_id": 6,
+    "prompt": "Depict Timmy, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, and Benny, a brown bear with bright and warm brown eyes, wearing a simple white shirt and blue shorts, both with kind expressions, returning to their cozy little cave in Bearville Forest, tired but happy. Capture their contentment and happiness as they reflect on their adventure. Framed with a close-up shot, focusing on the bears' faces and the cave entrance.",
+    "negative_prompt": "No dark or ominous colors, no characters in distress or conflict, no text or watermarks, no inconsistent anatomy, and no photorealism.",
+    "size_hint": "Close-up shot, 600x800 pixels"
+  }
+]
