@@ -1,0 +1,50 @@
+{
+  "title": "The Bridge of Friendship",
+  "theme": "friendship",
+  "age_group": "6-8",
+  "art_direction": {
+    "style": "children's picture-book illustration, soft watercolor, pastel palette, warm light, rounded friendly shapes, expressive faces, cozy whimsical environment, safe for young children",
+    "palette": "pastel, warm, gentle, high clarity",
+    "lighting": "soft morning or sunset light",
+    "camera_feel": "storybook page, medium-wide framing",
+    "negative_rules": [
+      "photorealistic, horror, scary, violence, text, watermark, logo, extra limbs, deformed face, blurry, dark mood, inconsistent clothing, duplicate characters"
+    ]
+  },
+  "characters": [
+    {
+      "name": "Mira",
+      "species": "child or friendly animal, based on the story context",
+      "core_personality": [
+        "kind",
+        "curious",
+        "expressive"
+      ],
+      "default_outfit": "simple colorful child-friendly outfit",
+      "consistency_rules": [
+        "Keep the same face, outfit colors, size, and friendly expression across scenes."
+      ]
+    },
+    {
+      "name": "Rafi",
+      "species": "child or friendly animal, based on the story context",
+      "core_personality": [
+        "kind",
+        "curious",
+        "expressive"
+      ],
+      "default_outfit": "simple colorful child-friendly outfit",
+      "consistency_rules": [
+        "Keep the same face, outfit colors, size, and friendly expression across scenes."
+      ]
+    }
+  ],
+  "world": {
+    "primary_setting": "safe cozy storybook world",
+    "visual_motifs": [
+      "warm light",
+      "rounded shapes",
+      "gentle nature details"
+    ]
+  }
+}

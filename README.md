@@ -1,230 +1,106 @@
-````markdown
-# NLP Story Generation Project
+# Final Connected Children's Storybook Pipeline
 
-This project focuses on generating **children’s stories for ages 6–8** using **Mistral-7B-Instruct**, prompt-based baselines, and **LoRA / QLoRA fine-tuning**.
+This is the streamlined final project folder. It keeps only the important components needed for the project demo/submission:
 
-The broader goal is to build a multimodal pipeline:
+1. **Story generation** using the fine-tuned Mistral LoRA checkpoint.
+2. **Scene extraction** for 6 storybook frames.
+3. **Image prompt generation** for each scene.
+4. **Optional image generation** using Hugging Face Inference API.
+5. **Saved output artifacts** in one folder: story, story JSON, story bible, scenes, prompts, images, and manifest.
 
-**theme → story → scenes / frames → image prompts → illustrations**
+## Why this file was chosen as the final story generator
 
-At the current stage, the project covers:
-- prompt-based story generation baselines
-- dataset preprocessing and filtering
-- LoRA fine-tuning on Mistral
-- checkpoint evaluation and comparison
+The project had multiple story-generation notebooks. The best final choice is the fine-tuned Mistral checkpoint path because it represents the trained model output, not just baseline prompting or preprocessing. The notebooks are useful for experimentation, but the final submission/demo needs one clean runnable script.
 
----
-
-## Project Goal
-
-Generate children’s stories that:
-
-- use **simple vocabulary**
-- maintain a **warm, child-friendly tone**
-- include **2–3 main characters**
-- are suitable for **6–7 visual scenes**
-- end with a **clear moral**
-- avoid **scary, violent, dark, or adult content**
-
----
-
-## Current Progress
-
-### Completed
-- zero-shot story generation with Mistral
-- few-shot prompting baseline
-- dataset selection and preprocessing
-- structured output formatting
-- QLoRA fine-tuning on Mistral-7B-Instruct-v0.2
-- checkpoint-based comparison between:
-  - base zero-shot
-  - base few-shot
-  - fine-tuned LoRA checkpoint
-
-### In Progress
-- refining story quality
-- improving consistency in character handling and moral generation
-
-### Planned Next
-- scene / frame extraction from generated stories
-- frame-wise prompt generation
-- character consistency pipeline
-- illustration generation for storybook-style outputs
-
----
-
-## Model and Training Setup
-
-### Base Model
-- `mistralai/Mistral-7B-Instruct-v0.2`
-
-### Fine-Tuning Method
-- **LoRA / QLoRA**
-- 4-bit quantization
-- PEFT-based adapter training
-
-### Target Output Format
+## Folder Structure
 
 ```text
-Title: ...
-Characters: ...
-Story:
-...
-Moral: ...
-````
+final_storybook_project/
+├── src/
+│   └── final_storybook_pipeline.py
+├── checkpoints/
+│   └── Checkpoint_100/              # LoRA adapter files
+├── examples/
+│   └── sample_existing_story.json
+├── outputs/
+├── requirements.txt
+└── README.md
+```
 
-This structure is used throughout prompting, preprocessing, and fine-tuning.
-
----
-
-## Repository Contents
-
-This repository includes:
-
-* preprocessing notebooks
-* prompt baseline notebooks
-* fine-tuning notebooks
-* comparison outputs
-* proposal / project documentation
-* LoRA checkpoint artifacts for inference
-
-Large raw processed datasets and oversized training artifacts are intentionally excluded from Git tracking where necessary.
-
----
-
-## Workflow
-
-### 1. Prompt Baselines
-
-We first evaluate Mistral using:
-
-* **zero-shot prompting**
-* **few-shot prompting**
-
-This establishes a baseline before fine-tuning.
-
-### 2. Dataset Preprocessing
-
-The dataset is cleaned and filtered to better match the task:
-
-* age suitability: 6–8
-* simpler language
-* moral-oriented structure
-* safer story content
-* scene-friendly narratives
-* reduced noise in character extraction
-
-### 3. Fine-Tuning
-
-We fine-tune Mistral using LoRA adapters to improve:
-
-* output format consistency
-* child-friendly style
-* moral inclusion
-* better task alignment without relying on long few-shot prompts
-
-### 4. Evaluation
-
-The generated stories are compared across:
-
-* base zero-shot
-* base few-shot
-* fine-tuned LoRA checkpoint
-
-Evaluation focuses on:
-
-* structure and formatting
-* readability for children
-* moral clarity
-* story coherence
-* suitability for later frame generation
-
----
-
-## Example Themes
-
-The current system has been tested on themes such as:
-
-* kindness
-* honesty
-* sharing
-* patience
-* teamwork
-
----
-
-## Installation
-
-Install dependencies with:
+## Install
 
 ```bash
 pip install -r requirements.txt
 ```
 
-The project currently uses the following stack:
+## Run story + prompts only
 
-* PyTorch
-* Transformers
-* Datasets
-* PEFT
-* TRL
-* Accelerate
-* BitsAndBytes
-* Pandas
-* Scikit-learn
-* NLTK
-* Jupyter / IPython kernel tools
+Use this first because it does not require image generation:
 
----
-
-## Notes on Checkpoints
-
-The fine-tuning stage produces LoRA adapter checkpoints rather than full model weights.
-
-To run inference later:
-
-1. load the base Mistral model
-2. attach the LoRA adapter checkpoint
-3. generate structured stories for new themes
-
----
-
-## Current Observations
-
-From experiments so far:
-
-* **few-shot prompting** provides a strong baseline
-* **LoRA fine-tuning** improves task-specific structure and reduces dependency on examples
-* the model has learned formatting and style reasonably well
-* the main remaining weaknesses are:
-
-  * occasional character inconsistency
-  * weaker moral endings in some generations
-  * incomplete scene-level structure for downstream image generation
-
-These observations directly motivate the next step: **frame extraction from generated stories**
-
----
-
-## Next Step
-
-The next phase of the project is:
-
-### Scene / Frame Generation
-
-Convert each story into **6–7 structured frames**, where each frame contains:
-
-* scene summary
-* characters present
-* setting
-* main action
-* emotional tone
-* visual cues
-
-This will allow the project to move from text-only generation toward **illustrated storybook generation**.
-
----
-
-
+```bash
+python src/final_storybook_pipeline.py \
+  --theme "kindness" \
+  --out outputs/kindness_demo \
+  --skip-images
 ```
+
+Expected output files:
+
+```text
+outputs/kindness_demo/story.txt
+outputs/kindness_demo/story.json
+outputs/kindness_demo/story_bible.json
+outputs/kindness_demo/scenes.json
+outputs/kindness_demo/image_prompts.json
+outputs/kindness_demo/manifest.json
 ```
+
+## Run with an existing story
+
+This is useful if you already generated a story and only want to create scenes/prompts/images:
+
+```bash
+python src/final_storybook_pipeline.py \
+  --input-story examples/sample_existing_story.json \
+  --out outputs/sample_story \
+  --skip-images
+```
+
+## Run full story + image generation
+
+```bash
+export HF_TOKEN=your_huggingface_token
+
+python src/final_storybook_pipeline.py \
+  --theme "teamwork" \
+  --out outputs/teamwork_demo
+```
+
+The generated images will be saved as:
+
+```text
+outputs/teamwork_demo/images/scene_01.png
+outputs/teamwork_demo/images/scene_02.png
+...
+```
+
+## What was removed from the final streamlined version
+
+- Colab/Kaggle setup cells
+- preprocessing experiments
+- duplicate fine-tuning notebooks
+- comparison/evaluation notebook code
+- separate disconnected image-only pipeline
+- demo-only hardcoded story logic
+
+## What remains
+
+- the trained LoRA adapter checkpoint
+- one runnable final pipeline
+- one dependency file
+- one example input file
+- clean outputs and logs
+
+## Notes
+
+The first run may take time because the base Mistral model must be downloaded. For machines without enough GPU memory, use `--input-story` and `--skip-images` to test the connected story-to-scenes-to-prompts pipeline without loading the full story model.

@@ -1,0 +1,23 @@
+{
+  "theme": "friendship",
+  "title": "The Little Lesson of Friendship",
+  "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "adapter_path": "checkpoints/Checkpoint_100",
+  "image_model": "black-forest-labs/FLUX.1-schnell",
+  "num_scenes": 6,
+  "output_files": {
+    "story_txt": "outputs/friendship_demo/story.txt",
+    "story_json": "outputs/friendship_demo/story.json",
+    "story_bible": "outputs/friendship_demo/story_bible.json",
+    "scenes": "outputs/friendship_demo/scenes.json",
+    "image_prompts": "outputs/friendship_demo/image_prompts.json",
+    "images": [
+      "outputs/friendship_demo/images/scene_01.png",
+      "outputs/friendship_demo/images/scene_02.png",
+      "outputs/friendship_demo/images/scene_03.png",
+      "outputs/friendship_demo/images/scene_04.png",
+      "outputs/friendship_demo/images/scene_05.png",
+      "outputs/friendship_demo/images/scene_06.png"
+    ]
+  }
+}
