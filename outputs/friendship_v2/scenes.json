@@ -1,0 +1,104 @@
+[
+  {
+    "scene_id": 1,
+    "scene_title": "Scene 1: Opening",
+    "narrative_role": "Opening",
+    "plot_beat": "Mira was a curious child who loved exploring the world around her, but she often liked doing things by herself. One bright morning, her teacher gave the class a special task: each student had to create something that showed the meaning of friendship. Mira immediately decided she would make the best project in the class.",
+    "visual_summary": "Mira was a curious child who loved exploring the world around her, but she often liked doing things by herself. One bright morning, her teacher gave the class a special task: each student had to create something that showed the meaning of friendship. Mira immediately decided she would make the best project in the class.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "Mira was a curious child who loved exploring the world around her, but she often liked doing things by herself. One bright morning, her teacher gave the class a special task: each student had to create something that sho",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 2,
+    "scene_title": "Scene 2: Journey",
+    "narrative_role": "Journey",
+    "plot_beat": "On her way home, Mira met Rafi, who was carrying a box of colored paper, glue, and tiny wooden sticks. He smiled and asked if they could work together. Mira hesitated at first because she already had her own plan.",
+    "visual_summary": "On her way home, Mira met Rafi, who was carrying a box of colored paper, glue, and tiny wooden sticks. He smiled and asked if they could work together. Mira hesitated at first because she already had her own plan.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "On her way home, Mira met Rafi, who was carrying a box of colored paper, glue, and tiny wooden sticks. He smiled and asked if they could work together. Mira hesitated at first because she already had her own plan.",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 3,
+    "scene_title": "Scene 3: Interaction",
+    "narrative_role": "Interaction",
+    "plot_beat": "But when a sudden breeze scattered her papers across the path, Rafi quickly helped her collect every sheet before they blew away. Mira realized that Rafi had ideas she had never considered. He suggested building a small paper village where every house represented a helpful action. Mira designed a school, Rafi made a garden, and together they created a little bridge connecting everything.",
+    "visual_summary": "But when a sudden breeze scattered her papers across the path, Rafi quickly helped her collect every sheet before they blew away. Mira realized that Rafi had ideas she had never considered. He suggested building a small paper village where every house represented a helpful action. Mira designed a school, Rafi made a garden, and together they create",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "But when a sudden breeze scattered her papers across the path, Rafi quickly helped her collect every sheet before they blew away. Mira realized that Rafi had ideas she had never considered. He suggested building a small ",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 4,
+    "scene_title": "Scene 4: High Point",
+    "narrative_role": "High Point",
+    "plot_beat": "As they worked, they disagreed about the colors, the shapes, and where each piece should go, but they learned to listen instead of arguing. By sunset, their project looked better than either of them could have made alone. The village had bright houses, smiling paper people, and a tiny sign that read: \u201cSmall acts can build something big.\u201d Mira felt proud, not because the project was perfect, but because it carried both of their ideas.",
+    "visual_summary": "As they worked, they disagreed about the colors, the shapes, and where each piece should go, but they learned to listen instead of arguing. By sunset, their project looked better than either of them could have made alone. The village had bright houses, smiling paper people, and a tiny sign that read: \u201cSmall acts can build something big.\u201d Mira felt ",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "As they worked, they disagreed about the colors, the shapes, and where each piece should go, but they learned to listen instead of arguing. By sunset, their project looked better than either of them could have made alone",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 5,
+    "scene_title": "Scene 5: Challenge",
+    "narrative_role": "Challenge",
+    "plot_beat": "The next day, their teacher asked them to explain their work. Mira said that she had learned friendship was not just a word. It meant sharing ideas, helping when things go wrong, and making space for someone else\u2019s voice.",
+    "visual_summary": "The next day, their teacher asked them to explain their work. Mira said that she had learned friendship was not just a word. It meant sharing ideas, helping when things go wrong, and making space for someone else\u2019s voice.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "The next day, their teacher asked them to explain their work. Mira said that she had learned friendship was not just a word. It meant sharing ideas, helping when things go wrong, and making space for someone else\u2019s voice",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "scene_title": "Scene 6: Resolution",
+    "narrative_role": "Resolution",
+    "plot_beat": "Rafi added that the best creations often happen when people trust each other. From that day on, Mira still loved having her own ideas, but she no longer wanted to do everything alone. She understood that friendship can turn an ordinary task into a meaningful adventure.",
+    "visual_summary": "Rafi added that the best creations often happen when people trust each other. From that day on, Mira still loved having her own ideas, but she no longer wanted to do everything alone. She understood that friendship can turn an ordinary task into a meaningful adventure.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "Rafi added that the best creations often happen when people trust each other. From that day on, Mira still loved having her own ideas, but she no longer wanted to do everything alone. She understood that friendship can t",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  }
+]

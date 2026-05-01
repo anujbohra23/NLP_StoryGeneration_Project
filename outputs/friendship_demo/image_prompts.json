@@ -1,0 +1,38 @@
+[
+  {
+    "scene_id": 1,
+    "prompt": "children's picture-book illustration, soft watercolor, pastel palette, warm light, rounded friendly shapes, expressive faces, cozy whimsical environment, safe for young children. Illustration for 'The Little Lesson of Friendship'. Mira wearing simple colorful child-friendly outfit; Rafi wearing simple colorful child-friendly outfit. Mira and Rafi wanted to learn about friendship. Scene mood: warm, gentle, child-friendly. Medium-wide storybook composition, clean background, consistent character design, no text on image.",
+    "negative_prompt": "photorealistic, horror, scary, violence, text, watermark, logo, extra limbs, deformed face, blurry, dark mood, inconsistent clothing, duplicate characters",
+    "size_hint": "1024x768"
+  },
+  {
+    "scene_id": 2,
+    "prompt": "children's picture-book illustration, soft watercolor, pastel palette, warm light, rounded friendly shapes, expressive faces, cozy whimsical environment, safe for young children. Illustration for 'The Little Lesson of Friendship'. Mira wearing simple colorful child-friendly outfit; Rafi wearing simple colorful child-friendly outfit. One sunny morning, they helped a small bird find its way home. Scene mood: warm, gentle, child-friendly. Medium-wide storybook composition, clean background, consistent character design, no text on image.",
+    "negative_prompt": "photorealistic, horror, scary, violence, text, watermark, logo, extra limbs, deformed face, blurry, dark mood, inconsistent clothing, duplicate characters",
+    "size_hint": "1024x768"
+  },
+  {
+    "scene_id": 3,
+    "prompt": "children's picture-book illustration, soft watercolor, pastel palette, warm light, rounded friendly shapes, expressive faces, cozy whimsical environment, safe for young children. Illustration for 'The Little Lesson of Friendship'. Mira wearing simple colorful child-friendly outfit; Rafi wearing simple colorful child-friendly outfit. One sunny morning, they helped a small bird find its way home. Scene mood: warm, gentle, child-friendly. Medium-wide storybook composition, clean background, consistent character design, no text on image.",
+    "negative_prompt": "photorealistic, horror, scary, violence, text, watermark, logo, extra limbs, deformed face, blurry, dark mood, inconsistent clothing, duplicate characters",
+    "size_hint": "1024x768"
+  },
+  {
+    "scene_id": 4,
+    "prompt": "children's picture-book illustration, soft watercolor, pastel palette, warm light, rounded friendly shapes, expressive faces, cozy whimsical environment, safe for young children. Illustration for 'The Little Lesson of Friendship'. Mira wearing simple colorful child-friendly outfit; Rafi wearing simple colorful child-friendly outfit. Along the path, they shared snacks, listened carefully, and solved problems together. Scene mood: warm, gentle, child-friendly. Medium-wide storybook composition, clean background, consistent character design, no text on image.",
+    "negative_prompt": "photorealistic, horror, scary, violence, text, watermark, logo, extra limbs, deformed face, blurry, dark mood, inconsistent clothing, duplicate characters",
+    "size_hint": "1024x768"
+  },
+  {
+    "scene_id": 5,
+    "prompt": "children's picture-book illustration, soft watercolor, pastel palette, warm light, rounded friendly shapes, expressive faces, cozy whimsical environment, safe for young children. Illustration for 'The Little Lesson of Friendship'. Mira wearing simple colorful child-friendly outfit; Rafi wearing simple colorful child-friendly outfit. By sunset, they understood that friendship can make even a simple day feel special. Scene mood: warm, gentle, child-friendly. Medium-wide storybook composition, clean background, consistent character design, no text on image.",
+    "negative_prompt": "photorealistic, horror, scary, violence, text, watermark, logo, extra limbs, deformed face, blurry, dark mood, inconsistent clothing, duplicate characters",
+    "size_hint": "1024x768"
+  },
+  {
+    "scene_id": 6,
+    "prompt": "children's picture-book illustration, soft watercolor, pastel palette, warm light, rounded friendly shapes, expressive faces, cozy whimsical environment, safe for young children. Illustration for 'The Little Lesson of Friendship'. Mira wearing simple colorful child-friendly outfit; Rafi wearing simple colorful child-friendly outfit. By sunset, they understood that friendship can make even a simple day feel special. Scene mood: warm, gentle, child-friendly. Medium-wide storybook composition, clean background, consistent character design, no text on image.",
+    "negative_prompt": "photorealistic, horror, scary, violence, text, watermark, logo, extra limbs, deformed face, blurry, dark mood, inconsistent clothing, duplicate characters",
+    "size_hint": "1024x768"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "title": "The Little Lesson of Friendship",
+  "theme": "friendship",
+  "characters": [
+    "Mira",
+    "Rafi"
+  ],
+  "story": "Mira was a curious child who loved exploring the world around her, but she often liked doing things by herself. One bright morning, her teacher gave the class a special task: each student had to create something that showed the meaning of {args.theme}. Mira immediately decided she would make the best project in the class. On her way home, Mira met Rafi, who was carrying a box of colored paper, glue, and tiny wooden sticks. He smiled and asked if they could work together. Mira hesitated at first because she already had her own plan. But when a sudden breeze scattered her papers across the path, Rafi quickly helped her collect every sheet before they blew away.
+
+Mira realized that Rafi had ideas she had never considered. He suggested building a small paper village where every house represented a helpful action. Mira designed a school, Rafi made a garden, and together they created a little bridge connecting everything. As they worked, they disagreed about the colors, the shapes, and where each piece should go, but they learned to listen instead of arguing.
+
+By sunset, their project looked better than either of them could have made alone. The village had bright houses, smiling paper people, and a tiny sign that read: “Small acts can build something big.” Mira felt proud, not because the project was perfect, but because it carried both of their ideas.
+
+The next day, their teacher asked them to explain their work. Mira said that she had learned {args.theme} was not just a word. It meant sharing ideas, helping when things go wrong, and making space for someone else’s voice. Rafi added that the best creations often happen when people trust each other.
+
+From that day on, Mira still loved having her own ideas, but she no longer wanted to do everything alone. She understood that {args.theme} can turn an ordinary task into a meaningful adventure.",
+  "moral": "Friendship grows when we practice it through small actions."
+}

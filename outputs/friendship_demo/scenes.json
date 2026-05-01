@@ -1,0 +1,104 @@
+[
+  {
+    "scene_id": 1,
+    "scene_title": "Scene 1: Opening",
+    "narrative_role": "Opening",
+    "plot_beat": "Mira and Rafi wanted to learn about friendship.",
+    "visual_summary": "Mira and Rafi wanted to learn about friendship.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "Mira and Rafi wanted to learn about friendship.",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 2,
+    "scene_title": "Scene 2: Journey",
+    "narrative_role": "Journey",
+    "plot_beat": "One sunny morning, they helped a small bird find its way home.",
+    "visual_summary": "One sunny morning, they helped a small bird find its way home.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "One sunny morning, they helped a small bird find its way home.",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 3,
+    "scene_title": "Scene 3: Interaction",
+    "narrative_role": "Interaction",
+    "plot_beat": "One sunny morning, they helped a small bird find its way home.",
+    "visual_summary": "One sunny morning, they helped a small bird find its way home.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "One sunny morning, they helped a small bird find its way home.",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 4,
+    "scene_title": "Scene 4: High Point",
+    "narrative_role": "High Point",
+    "plot_beat": "Along the path, they shared snacks, listened carefully, and solved problems together.",
+    "visual_summary": "Along the path, they shared snacks, listened carefully, and solved problems together.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "Along the path, they shared snacks, listened carefully, and solved problems together.",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 5,
+    "scene_title": "Scene 5: Challenge",
+    "narrative_role": "Challenge",
+    "plot_beat": "By sunset, they understood that friendship can make even a simple day feel special.",
+    "visual_summary": "By sunset, they understood that friendship can make even a simple day feel special.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "By sunset, they understood that friendship can make even a simple day feel special.",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "scene_title": "Scene 6: Resolution",
+    "narrative_role": "Resolution",
+    "plot_beat": "By sunset, they understood that friendship can make even a simple day feel special.",
+    "visual_summary": "By sunset, they understood that friendship can make even a simple day feel special.",
+    "characters_present": [
+      "Mira",
+      "Rafi"
+    ],
+    "location": "storybook setting from this part of the story",
+    "action": "By sunset, they understood that friendship can make even a simple day feel special.",
+    "mood": "warm, gentle, child-friendly",
+    "continuity_notes": [
+      "Keep character designs and outfits consistent."
+    ]
+  }
+]
